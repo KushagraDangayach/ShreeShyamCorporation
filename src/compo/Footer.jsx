@@ -17,7 +17,7 @@ const Footer = () => {
   const contactInfo = [
     { label: 'Address', value: 'B-54, Rajdhani Krishi Mandi, Kukarheda, Sikar Road, Jaipur, India' },
     { label: 'Phone', value: '+91 91663 31604' },
-    { label: 'Email', value: 'khush@gmail.com' }
+    { label: 'Email', value: 'support@shrishyamcorporation.in' }
   ];
 
   // const socialLinks = [
