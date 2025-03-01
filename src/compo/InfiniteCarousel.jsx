@@ -50,7 +50,6 @@ const InfiniteCarousel = () => {
 
   const totalItems = carouselItems.length;
 
-  // Handle responsive layout
   useEffect(() => {
     const handleResize = () => {
       const width = window.innerWidth;
@@ -109,7 +108,6 @@ const InfiniteCarousel = () => {
             </div>
           </div>
 
-          {/* Navigation Buttons - Hidden on mobile */}
           {!isMobile && (
             <>
               <button
@@ -135,7 +133,6 @@ const InfiniteCarousel = () => {
             </>
           )}
 
-          {/* Dots Indicator */}
           <div className="flex justify-center mt-4 sm:mt-6 gap-1 sm:gap-2">
             {carouselItems.map((_, index) => (
               <button
