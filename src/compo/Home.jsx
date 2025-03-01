@@ -73,10 +73,8 @@ const Home = () => {
     }
   ];
 
-  // Rest of the Home component remains the same
   return (
     <div className="min-h-screen">
-      {/* Hero Section */}
       <div className="bg-gradient-to-br from-green-50 to-green-100">
         <div className="container mx-auto px-4 py-4 md:py-32">
           <div className="flex flex-col md:flex-row items-center justify-between gap-12">
@@ -112,7 +110,6 @@ const Home = () => {
 
       <InfiniteCarousel />
 
-      {/* Featured Categories Section */}
       <div className="py-24 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="max-w-2xl mx-auto text-center mb-16">
@@ -131,7 +128,6 @@ const Home = () => {
         </div>
       </div>
       
-      {/* Contact Form */}
       <div className="container mx-auto px-4 py-16">
         <div className="max-w-2xl mx-auto">
           <div className="bg-white p-8 md:p-12 rounded-2xl shadow-lg">
