@@ -29,10 +29,8 @@ const Footer = () => {
 
   return (
     <footer className="bg-[#4F9153]">
-      {/* Main Footer Content */}
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {/* Company Info */}
           <div>
             <h3 className="text-xl font-bold text-white mb-6">Shri Shyam Corporation</h3>
             <p className="text-white mb-4">
@@ -41,7 +39,6 @@ const Footer = () => {
 
           </div>
 
-          {/* Quick Links */}
           <div>
             <h3 className="text-xl font-bold text-white mb-6">Quick Links</h3>
             <ul className="space-y-3">
@@ -58,7 +55,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Products */}
           <div>
             <h3 className="text-xl font-bold text-white mb-6">Our Products</h3>
             <ul className="space-y-3">
@@ -75,7 +71,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Contact Info */}
           <div>
             <h3 className="text-xl font-bold text-white mb-6">Contact Us</h3>
             <ul className="space-y-4">
@@ -92,7 +87,6 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Bottom Bar */}
       <div className="bg-[#4F9153]/10 py-4">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center text-white text-sm">
