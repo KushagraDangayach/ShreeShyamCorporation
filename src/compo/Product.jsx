@@ -22,7 +22,7 @@ const ProductCard = ({ name, category, image, specifications, whatWeProvide, spe
 
   return (
     <div className="bg-[#ecdfd6] rounded-xl shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 flex flex-col h-full">
-      <div className="aspect-[16/9] relative overflow-hidden rounded-t-xl">
+      <div className="aspect-[16/9] md:aspect-[16/6] relative overflow-hidden rounded-t-xl">
         <div className="absolute top-4 right-4 z-10">
           <span className="bg-[#93C572] text-white text-sm font-medium px-4 py-1.5 rounded-full">
             {category === 'chickpea' ? 'Chickpea Products' : 'Grains & Spices'}
