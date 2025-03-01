@@ -10,14 +10,14 @@ const countryData = [
   { name: "Germany", code: "+49", flag: "🇩🇪" },
   { name: "France", code: "+33", flag: "🇫🇷" },
   { name: "Japan", code: "+81", flag: "🇯🇵" },
-  // Add more countries as needed
+  // Add more countries
 ].sort((a, b) => a.name.localeCompare(b.name));
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
-    countryCode: '+91', // Default to India
+    countryCode: '+91',
     phone: '',
     message: ''
   });
